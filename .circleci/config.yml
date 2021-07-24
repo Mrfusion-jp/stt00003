@@ -1,5 +1,3 @@
-from google.cloud import translate
-
 def batch_translate_text(
     input_uri="gs://data000001/日本語1627110496.json",
     output_uri="gs://data000001/path/to/save/results/",
